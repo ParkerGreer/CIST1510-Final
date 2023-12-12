@@ -1,0 +1,143 @@
+/* The HTML styles */
+
+
+a:focus, a:hover {
+	font-style: italic;
+}
+
+/* the styles for the navigation menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+    
+}
+#nav_menu ul li {
+	float: left;
+    margin: 0;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 387px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #437c85;
+    color: white;
+    font-weight: bold;
+    border: 4px solid #2f585e;
+}
+#nav_menu a.current {
+	color: white;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/* The Heading styles */
+header {
+	margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 1.5em 0 2em 0;
+	border: 4px solid #2f585e;
+	background-image: linear-gradient(
+	    30deg, #437c85 0%, #2f585e 30%, #437c85, #2f585e 80%, #437c85 100%);
+    font-family:sans-serif;
+    text-shadow: gray;
+
+}
+
+header h1 {
+text-align: center;
+color: white;
+font-size: xx-large
+}
+header h2 {
+text-align: center;
+color: white;
+font-size: x-large
+
+}
+
+/* The Body styles */
+body {
+    background-color: rgb(34, 121, 84);
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    height:100%;
+    width:100%;
+}
+body p {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: auto;
+    font-size: large;
+}
+
+
+
+Body h2 {
+    padding: 10px;
+}
+img {
+    margin-top: 30px;
+    max-width: 30%;
+}
+
+/* The Index body styles */
+main {
+    padding-bottom: 50px;
+
+}
+
+/* The about us body styles */
+
+aside {
+    padding-bottom: 50px;
+}
+aside h3 {font-style: bold;}
+
+
+/* The footer styles */
+footer {
+	background-color: #437c85;
+	clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: medium;
+}
+
+/* Unorderd list styles */
+
+main ul {
+    list-style-position: inside;
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    padding-right: 60px;
+  }
+  
